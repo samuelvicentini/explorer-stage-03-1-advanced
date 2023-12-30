@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+button,
+input {
+  font-family: 'Poppins';
+}
+
+body {
+  background: #efefef;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 443px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+header {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+header h1 {
+  font-family: 'Staatliches';
+  text-transform: uppercase;
+  font-size: 48px;
+  padding-top: 140px;
+  padding-bottom: 18px;
+  color: #fff;
+}
+
+header p {
+  font-size: 20px;
+  color: #fff;
+}
+
+form {
+  max-width: 750px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px 8px 0 0;
+  padding: 64px;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 24px;
+  line-height: 34px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e6e6f0;
+  width: 100%;
+}
+
+.name_surname_wrapper {
+  margin-top: 36px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.name_surname_input {
+  width: 100%;
+}
+
+.name_surname_input label {
+  color: #4e4958;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.name_surname_input input {
+  display: block;
+  width: 100%;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.input_full_size {
+  margin-top: 16px;
+}
+
+.input_full_size label {
+  color: #4e4958;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.input_full_size label span {
+  color: #c1bccc;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.input_full_size input {
+  display: block;
+  width: 100%;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.mentoring_date h4 {
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 20px;
+  line-height: 34px;
+  margin-top: 16px;
+}
+
+.mentoring_date_wrapper {
+  display: flex;
+  gap: 14px;
+}
+
+.mentoring_date_input_name,
+.mentoring_date_input_hour {
+  color: #4e4958;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.mentoring_date_input_name span {
+  color: #c1bccc;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.mentoring_date_input_name input {
+  display: block;
+  min-width: 314px;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.mentoring_date_input_hour input {
+  display: block;
+  max-width: 140px;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.save_form {
+  background: #535971;
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  border-radius: 0 0 8px 8px;
+}
+
+.save_form button {
+  width: 608px;
+  height: 55.652px;
+  padding: 15px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  margin: 52px 0;
+  background: #ff5374;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Staatliches;
+  font-size: 20px;
+  line-height: 26px; /* 130% */
+}
+
+.save_form button:hover {
+  cursor: pointer;
+  background: #d54460;
+}
